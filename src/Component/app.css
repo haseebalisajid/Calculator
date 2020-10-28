@@ -1,0 +1,169 @@
+body, html {
+    background: rgb(15, 155, 108);
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position:realtive;
+}
+.calculator {
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    background: #000000;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+    border-radius: 14px;
+    padding-bottom: 20px;
+    width: 320px; 
+}
+.display {
+    width: 100%;
+    height: 40px;
+    padding: 40px 0;
+    background: #000000;
+    border-bottom: 1px solid black;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom: 1px solid white;
+}
+.input {
+    width: 290px;
+    box-sizing: border-box;
+    background: none;
+    color: #ffffff;
+    text-align: right;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    margin: 0 15px;
+    outline: none;
+    border: none;
+}
+.buttons {
+    padding: 20px 20px 0 20px;
+}
+.row {
+    width: 280px;
+    float: left;
+}
+.hRow {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 2px;
+    margin-left: 2px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-top-left-radius: 14px;
+    cursor: pointer;
+    outline: none;
+}
+.hRow:hover{
+    background-color: #b9b9b9;
+    border-bottom: 1px solid white;
+    border: 1px solid black;
+    outline: none;
+}
+.Container:focus{
+    outline: none;
+}
+.row div{
+    width: 60px;
+    height: 60px;
+    float: left;
+    text-align: center;
+    padding: 16px;
+    margin: 5px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.operator{
+    background-color: #fe9d12;
+    border-radius: 50%;
+    color: white;
+}
+.zero{
+    background-color: #414141;
+    color: white;
+    width: 130px !important;
+    border-radius: 56px;
+    text-align: left;
+    padding-left: 20px !important;
+}
+.row div:hover {
+    opacity: 0.5;
+}
+.keypad{
+    border-radius: 50%;
+    background-color: #414141;
+    color: white;
+}
+.uperKey{
+    border-radius: 50%;
+    background-color: #b9b9b9;
+    color: white;
+}
+.memory{
+    position: absolute;
+    top: 195px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #000000;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+    border-radius: 14px;
+    padding-bottom: 20px;
+    width: 320px;
+}
+.Mdisplay {
+    width: 100%;
+    height: 30px;
+    padding: 20px 0;
+    background: #000000;
+    border-bottom: 1px solid black;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom: 1px solid white;
+}
+.Mheader{
+    width: 270px;
+    height: 40px;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0 25px;
+}
+.Lists{
+    color: white;
+    width: 100%;
+}
+ul{
+    list-style-type:none;
+    width: 73%;
+    color: white;
+    overflow-y: auto;
+    max-height: 150px;
+}
+li{
+    height: 40px;
+    line-height:30px;
+    font-size: 20px;
+    margin-bottom: 6px; 
+    border-bottom: 1px solid white;
+}
+h5{
+    position: absolute;
+    top: 92%;
+    left:47%;
+}
